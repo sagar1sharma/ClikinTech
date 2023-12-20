@@ -8,7 +8,6 @@ import {
 import DesktopHome from "./desktop/pages/Home";
 import MobileHome from "./mobile/pages/Frame"
 import Privacy from "./desktop/pages/Privacy";
-import MobPrivacy from "./mobile/pages/MobPrivacy"
 
 function App() {
   const action = useNavigationType();
@@ -60,7 +59,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={!isMobile ? <DesktopHome />: <MobileHome />} />
-      <Route path="/privacy" element={!isMobile ? <Privacy />: <MobPrivacy />} />
+      <Route path="/privacy" element={!isMobile && <Privacy />} />
     </Routes>
   );
 }
