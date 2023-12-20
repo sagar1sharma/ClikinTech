@@ -1,0 +1,47 @@
+.elevate-your-business-with-cli-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.we-deliver-high {
+  flex: 1;
+  position: relative;
+}
+.we-deliver-high-quality-produc-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--satoshi-18px-regular-size);
+}
+.frame-parent16 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.card-group,
+.frame-parent15 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-group {
+  width: 857px;
+  flex-shrink: 0;
+  gap: var(--gap-5xl);
+}
+.frame-parent15 {
+  width: 1248px;
+  gap: var(--gap-29xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--foundation-blue-blue-400);
+  font-family: var(--font-plus-jakarta-sans);
+}

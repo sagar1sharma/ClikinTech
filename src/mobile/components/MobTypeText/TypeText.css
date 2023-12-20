@@ -1,0 +1,36 @@
+.mob-button,
+.mob-icons2 {
+  position: relative;
+}
+.mob-icons2 {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mob-button {
+  font-weight: 500;
+}
+.mob-text,
+.mob-typetext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mob-text {
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.mob-typetext {
+  border-radius: var(--br-5xs);
+  width: 221px;
+  justify-content: center;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--satoshi-18px-medium-size);
+  color: var(--foundation-blue-blue-500);
+  font-family: var(--satoshi-18px-medium);
+}

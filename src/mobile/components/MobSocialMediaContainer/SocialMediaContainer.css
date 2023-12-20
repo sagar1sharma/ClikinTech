@@ -1,0 +1,47 @@
+.mob-follow-us {
+  font-weight: 600;
+}
+.mob-destinations7,
+.mob-follow-us {
+  position: relative;
+}
+.mob-sublink7 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--foundation-blue-blue-400);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.mob-icons8-facebook-1-1 {
+  position: relative;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mob-follow-us-parent,
+.mob-icons8-facebook-1-1-parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mob-icons8-facebook-1-1-parent {
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: 12.33px;
+}
+.mob-follow-us-parent {
+  position: absolute;
+  top: 7857px;
+  left: 88px;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--satoshi-18px-medium-size);
+  color: var(--foundation-blue-blue-500);
+  font-family: var(--font-kumbh-sans);
+}

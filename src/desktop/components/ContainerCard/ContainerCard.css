@@ -1,0 +1,37 @@
+.frame-child1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--foundation-blue-blue-400);
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.title {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.title-wrapper {
+  width: 69px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-parent3 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-silver-100);
+  border: 1px solid var(--color-silver-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--satoshi-18px-regular-size);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}

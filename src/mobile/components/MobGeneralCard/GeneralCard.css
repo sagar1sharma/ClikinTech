@@ -1,0 +1,49 @@
+.mob-icons4 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mob-digital-marketing {
+  flex: 1;
+  position: relative;
+}
+.mob-digital-marketing-wrapper,
+.mob-we-transform-data-into-dynamic-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mob-we-transform-data-into-dynamic-wrapper {
+  font-size: var(--satoshi-18px-medium-size);
+}
+.mob-icons5 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mob-statedefault-modedark {
+  border-radius: var(--br-base);
+  background-color: var(--bg);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  width: 426px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-29xl);
+  gap: 24px;
+  text-align: left;
+  font-size: var(--satoshi-24px-bold-size);
+  color: var(--color-white);
+  font-family: var(--satoshi-18px-medium);
+}

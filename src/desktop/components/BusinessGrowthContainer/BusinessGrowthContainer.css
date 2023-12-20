@@ -1,0 +1,59 @@
+.about-us {
+  flex: 1;
+  position: relative;
+}
+.about-us-wrapper,
+.clikin-tech-fuels-business-gro-wrapper,
+.elevate-your-business-with-cli-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.clikin-tech-fuels-business-gro-wrapper {
+  font-size: var(--font-size-13xl);
+  color: var(--foundation-blue-blue-500);
+}
+.elevate-your-business-with-cli-wrapper {
+  font-size: var(--satoshi-18px-regular-size);
+}
+.frame-parent13,
+.frame-parent14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent14 {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.frame-parent13 {
+  width: 506px;
+  gap: var(--gap-29xl);
+}
+.card-parent,
+.frame-parent12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-parent {
+  width: 814px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  padding: var(--padding-5xs) var(--padding-161xl) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.frame-parent12 {
+  width: 1248px;
+  overflow: hidden;
+  gap: var(--gap-29xl);
+  text-align: left;
+  font-size: var(--satoshi-24px-bold-size);
+  color: var(--foundation-blue-blue-400);
+  font-family: var(--font-plus-jakarta-sans);
+}

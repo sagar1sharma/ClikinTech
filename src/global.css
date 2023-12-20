@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Satoshi:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --satoshi-18px-regular: Satoshi;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --title-2: "Kumbh Sans";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --satoshi-18px-regular-size: 18px;
+  --satoshi-24px-bold-size: 24px;
+  --title-2-size: 20px;
+  --font-size-13xl: 32px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --foundation-blue-blue-50: #e6e8ea;
+  --white: #fff;
+  --bg: #212428;
+  --foundation-blue-blue-500: #05162e;
+  --foundation-blue-blue-300: #586373;
+  --color-dimgray-100: rgba(88, 99, 115, 0.2);
+  --foundation-blue-blue-400: #374558;
+  --foundation-yellow-yellow-900: #5b4a29;
+  --color-darkolivegreen-100: rgba(91, 74, 41, 0.5);
+  --foundation-yellow-yellow-500: #d9af62;
+  --color-silver-100: rgba(178, 183, 190, 0.3);
+  --color-silver-200: rgba(198, 198, 198, 0.33);
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-29xl: 48px;
+  --gap-45xl: 64px;
+  --gap-3xl: 22px;
+  --gap-21xl: 40px;
+
+  /* Paddings */
+  --padding-29xl: 48px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-77xl: 96px;
+  --padding-5xs: 8px;
+  --padding-161xl: 180px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-5xs: 8px;
+}

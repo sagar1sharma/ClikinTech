@@ -1,0 +1,91 @@
+.mob-frame-child1,
+.mob-frame-child2 {
+  position: absolute;
+  top: 0;
+  border-radius: 0 0 126.75px 126.75px;
+  width: 253.5px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.mob-frame-child1 {
+  width: 100%;
+  opacity: 50%;
+  left: -0.1px;
+  height: 383.4px;
+}
+.mob-frame-child2 {
+  right: 0.5px;
+  height: 507px;
+}
+.mob-rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  background-color: var(--color-gray-100);
+  width: 360px;
+  height: 510px;
+}
+.mob-businesses {
+  color: var(--foundation-yellow-yellow-500);
+}
+.mob-we-help-businesses-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  color: white;
+  width: 293.7px;
+}
+.mob-header {
+  align-self: stretch;
+  position: relative;
+  height: 200px;
+}
+.mob-empowering-your-digital {
+  position: absolute;
+  top: 21.5px;
+  left: 0;
+  color: #BCBCBC;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 147.42%; /* 20.639px */
+}
+.mob-body {
+  align-self: stretch;
+  position: relative;
+  height: 100px;
+  font-size: var(--font-size-sm);
+  color: var(--color-silver-100);
+}
+.mob-header-parent {
+  position: absolute;
+  top: calc(50% - 155.75px);
+  left: calc(50% - 129.85px);
+  width: 293.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 11.52px;
+}
+.mob-frame-wrapper1 {
+  position: absolute;
+  top: calc(50% - 154.5px);
+  left: calc(50% - 199px);
+  width: 293.7px;
+  height: 311.5px;
+}
+.mob-frame-parent1 {
+  position: absolute;
+  top: 81px;
+  left: -4px;
+  width: 444px;
+  height: 507px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-plus-jakarta-sans);
+}

@@ -1,0 +1,40 @@
+.mob-icons8 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mob-our-story {
+  flex: 1;
+  position: relative;
+}
+.mob-from-traditional-to-digital-c-wrapper,
+.mob-our-story-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mob-from-traditional-to-digital-c-wrapper {
+  font-size: var(--satoshi-18px-medium-size);
+  color: var(--foundation-blue-blue-400);
+}
+.mob-property-1variant2 {
+  border-radius: var(--br-base);
+  border: 2px solid var(--foundation-yellow-yellow-900);
+  box-sizing: border-box;
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--satoshi-24px-bold-size);
+  color: var(--bg);
+  font-family: var(--satoshi-18px-medium);
+}

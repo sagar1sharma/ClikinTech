@@ -1,0 +1,36 @@
+.icons8 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.enter-email {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.enter-email-wrapper,
+.input-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.enter-email-wrapper {
+  flex: 1;
+  flex-shrink: 0;
+}
+.input-field {
+  border-radius: var(--br-5xs);
+  background-color: var(--foundation-blue-blue-50);
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--title-2-size);
+  color: var(--foundation-blue-blue-300);
+  font-family: var(--satoshi-18px-regular);
+  align-self: stretch;
+}

@@ -1,0 +1,82 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 796px;
+  width: 700px;
+  height: 800px;
+  object-fit: cover;
+}
+.memphics-010-copy-1,
+.memphics-011-copy-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.memphics-011-copy-1 {
+  top: 607px;
+  left: calc(50% - 100px);
+}
+.memphics-010-copy-1 {
+  top: 127px;
+  left: 0;
+}
+.businesses {
+  color: var(--foundation-yellow-yellow-500);
+}
+.we-help-businesses-container {
+  flex: 1;
+  position: relative;
+}
+.body,
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.body {
+  font-size: var(--satoshi-24px-bold-size);
+}
+.button-parent,
+.header-parent {
+  display: flex;
+  gap: var(--gap-5xl);
+}
+.header-parent {
+  width: 612px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.button-parent {
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-container {
+  position: absolute;
+  top: 230px;
+  left: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-29xl);
+}
+.frame-group {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 720px);
+  background-color: var(--bg);
+  width: 1440px;
+  height: 880px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-plus-jakarta-sans);
+}

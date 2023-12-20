@@ -1,0 +1,32 @@
+.vector-icon1 {
+  position: relative;
+  width: 218.4px;
+  height: 56px;
+  object-fit: cover;
+}
+.vector-group {
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% - 720px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-77xl);
+  box-sizing: border-box;
+}
+.navigation-bar-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--bg);
+  box-shadow: 0 4px 20px rgba(33, 36, 40, 0.08);
+  width: 1440px;
+  height: 120px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--satoshi-18px-regular-size);
+  color: var(--foundation-blue-blue-50);
+  font-family: var(--satoshi-18px-regular);
+}

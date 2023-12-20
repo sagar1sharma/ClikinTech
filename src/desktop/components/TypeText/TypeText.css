@@ -1,0 +1,35 @@
+.icons10 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button {
+  position: relative;
+  font-weight: 500;
+}
+.text,
+.typetext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.text {
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.typetext {
+  border-radius: var(--br-5xs);
+  width: 221px;
+  justify-content: center;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--satoshi-18px-regular-size);
+  color: var(--foundation-blue-blue-500);
+  font-family: var(--satoshi-18px-regular);
+}

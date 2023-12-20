@@ -1,0 +1,40 @@
+.mob-icons {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mob-enter-email {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.mob-enter-email-wrapper,
+.mob-input-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mob-enter-email-wrapper {
+  flex: 1;
+  flex-shrink: 0;
+}
+.mob-input-field {
+  border-radius: var(--br-5xs);
+  background-color: var(--foundation-blue-blue-50);
+  width: 373px;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: 20px;
+  color: var(--foundation-blue-blue-300);
+  font-family: var(--satoshi-18px-medium);
+}
+input{
+  border:none;
+  background-color: var(--foundation-blue-blue-50);
+}
