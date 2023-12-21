@@ -34,3 +34,7 @@
   font-family: var(--satoshi-18px-regular);
   align-self: stretch;
 }
+textarea{
+  background-color: var(--foundation-blue-blue-50);
+  border: 0;
+}

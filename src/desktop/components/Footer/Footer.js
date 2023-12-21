@@ -3,12 +3,9 @@ import { useState } from "react";
 
 const Footer = (props) => {
   const state = props.state;
-  let passed = false;
-  if(state !== undefined){
-    passed = true
-  }
+  
   return (
-    <div className={passed ? "privacy-footer" : "footer"}>
+    <div className={state == 'privacy' ? "privacy-footer" : "footer"}>
       <div className="frame-parent21">
         <div className="frame-parent22">
           <div className="vector-parent">

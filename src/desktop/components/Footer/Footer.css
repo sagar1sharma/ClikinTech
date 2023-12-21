@@ -122,9 +122,9 @@
   flex-direction: column;
   gap: var(--gap-45xl);
 }
-.footer {
+.footer, .privacy-footer {
   position: absolute;
-  top: 4861px;
+  bottom: 0px;
   left: calc(50% - 720px);
   background-color: var(--color-silver-200);
   width: 1440px;
@@ -136,13 +136,5 @@
   font-family: var(--font-plus-jakarta-sans);
 }
 .privacy-footer{
-  left: calc(50% - 720px);
-  background-color: var(--color-silver-200);
-  width: 1440px;
-  height: 550px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--title-2-size);
-  color: var(--foundation-blue-blue-500);
-  font-family: var(--font-plus-jakarta-sans);
+  bottom: -550px;
 }

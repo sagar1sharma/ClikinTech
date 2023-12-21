@@ -56,8 +56,8 @@ const InputField = ({
     <div className="mob-input-field" style={inputFieldStyle}>
       {showLeftIcon && <img className="mob-icons" alt="" src={inputId} />}
       <div className="mob-enter-email-wrapper" style={frameDivStyle}>
-        <input type="text" placeholder={text} className="mob-enter-email" style={enterEmailStyle}>
-        </input>
+        {text !== "Enter your message" ? <input type="text" placeholder={text} className="enter-email" style={enterEmailStyle} /> :
+         <textarea placeholder={text} className="enter-email" style={enterEmailStyle} />}
       </div>
       {showRightIcon && <img className="mob-icons" alt="" src={inputIconId} />}
     </div>

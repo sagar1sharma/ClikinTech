@@ -1,8 +1,8 @@
 .mainPage{
     position: absolute;
     top: 160px;
-    padding-left: 128px;
-    padding-right: 128px
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .heading{

@@ -39,8 +39,8 @@ const InputField = ({
     <div className="input-field" style={inputFieldStyle}>
       {showLeftIcon && <img className="icons8" alt="" src={inputId} />}
       <div className="enter-email-wrapper" style={frameDivStyle}>
-        <input type="text" placeholder={text} className="enter-email" style={enterEmailStyle}>
-        </input>
+        {text !== "Enter your message" ? <input type="text" placeholder={text} className="enter-email" style={enterEmailStyle} /> :
+         <textarea placeholder={text} className="enter-email" style={enterEmailStyle} />}
       </div>
       {showRightIcon && <img className="icons8" alt="" src={inputLabelId} />}
     </div>

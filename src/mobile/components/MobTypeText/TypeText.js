@@ -38,8 +38,12 @@ const TypeText = ({
     };
   }, [buttonFontSize, buttonFontFamily]);
 
+  function handleClick(buttonText){
+    alert(buttonText + " Clicked!")
+  }
+
   return (
-    <div className="mob-typetext" style={typeTextStyle}>
+    <div onClick={() => handleClick(buttonText)} className="mob-typetext" style={typeTextStyle}>
       {showLeftIcon && <img className="mob-icons2" alt="" src={buttonIcon} />}
       <div className="mob-text">
         <div className="mob-button" style={buttonStyle}>

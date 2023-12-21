@@ -9,6 +9,7 @@ import InputField from "../components/MobInputField/InputField";
 import SocialMediaContainer from "../components/MobSocialMediaContainer/SocialMediaContainer";
 import "./Frame.css";
 import { useState } from "react";
+import SideMenuBG from "../components/MobSideMenu/MobSideMenu";
 
 const Frame = () => {
   const [hamburger, setHamburger] = useState(false)
